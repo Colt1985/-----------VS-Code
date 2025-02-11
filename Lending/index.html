@@ -37,22 +37,46 @@
         <li>Компаниям друзей.</li>
         <li>Семьям с детьми старше 12 лет.</li>
     </ul>
+    <h2>Какие есть тарифы?</h2>
+    <p>Мы знаем, что каждое путешествие уникально. Поэтому разработали несколько тарифов, чтобы вы могли выбрать самый
+        комфортный для себя. Независимо от выбранного тарифа, вас ждет незабываемое путешествие.</p>
     <table width="auto">
         <tr>
             <th width="200">Тариф</th>
             <th width="300">Группа</th>
+            <th width="300">Стоимость</th>
+            <th width="600">Программа</th>
         </tr>
         <tr>
-            <td width="200">Эконом</td>
+            <td width="200" align="center">Эконом</td>
             <td width="300">От 15 человек</td>
+            <td width="300" align="center">1500 руб.</td>
+            <td width="600">Пешая прогулка. Прогулка по крышам</td>
         </tr>
         <tr>
-            <td width="200">Комфорт</td>
+            <td width="200" align="center">Комфорт</td>
             <td width="300">От 7 человек</td>
+            <td width="300" align="center">2500 руб.</td>
+            <td width="600">Пешая прогулка. Экскурсия по рекам и каналам. Прогулка по крышам</td>
+        </tr>
+        <tr>
+            <td width="200" align="center">Премиум</td>
+            <td width="300">От 4 до 6 человек</td>
+            <td width="300" align="center">4200 руб.</td>
+            <td width="600">Пешая прогулка. Экскурсия по рекам и каналам. Прогулка по крышам. Экскурсия в Петергоф</td>
+        </tr>
+        <tr>
+            <td width="200" align="center">Люкс</td>
+            <td width="300">1-2 человека</td>
+            <td width="300" align="center">6000 руб.</td>
+            <td width="600">Эксклюзивные маршруты под ключ. Пешая прогулка. Экскурсия по рекам и каналам. Прогулка по
+                крышам. Экскурсия в Петергоф</td>
         </tr>
     </table>
+    <p>Мы предлагаем различные варианты оплаты. Менеджер поможет подобрать оптимальный вариант.</p>
 
     <form>
+        <h2>Дополнительные услуги</h2>
         <ul>
             <li>
                 <input type="checkbox" name="services" value="transfer" data-price="100">
@@ -61,6 +85,30 @@
             <li>
                 <input type="checkbox" name="services" value="disabled-transfer" data-price="100">
                 <label>Трансфер для людей из маломобильных групп населения</label>
+            </li>
+            <li>
+                <input type="checkbox" name="services" value="breakfast" data-price="10">
+                <label>Завтрак</label>
+            </li>
+            <li>
+                <input type="checkbox" name="services" value="lunch" data-price="20">
+                <label>Обед</label>
+            <li>
+                <input type="checkbox" name="services" value="dinner" data-price="20">
+                <label>Ужин</label>
+            <li>
+                <input type="checkbox" name="services" value="translator" data-price="50">
+                <label>Переводчик с русского на английский язык</label>
+            </li>
+            <li>
+                <input type="checkbox" name="services" value="children_guide" data-price="50">
+                <label>Экскурсовод для детей</label>
+            </li>
+            <li>
+                <input type="checkbox" name="services" value="sign_language_interpreter" data-price="50">
+                <label>Сурдопереводчик</label>
+            </li>
+            </li>
             </li>
         </ul>
     </form>
@@ -122,6 +170,8 @@
         <label for="tariff">Выберите тариф</label>
         <option value="economy">Эконом</option>
         <option value="comfort">Комфорт</option>
+        <option value="comfort">Премиум</option>
+        <option value="comfort">Люкс</option>
     </select>
 
     <a href="https://t.me/Alexey_Filippov_1985">Свяжитесь с автором экскурсии</a>
